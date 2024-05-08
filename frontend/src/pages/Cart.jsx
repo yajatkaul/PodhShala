@@ -7,7 +7,6 @@ import { MdRemoveShoppingCart } from "react-icons/md";
 
 const Cart = () => {
   const { cart } = useCartContext();
-  console.log(cart);
 
   const countItemsInCart = () => {
     const counts = {};

@@ -8,6 +8,7 @@ const CheckedOut = () => {
   const navigate = useNavigate();
   const { setCart } = useCartContext();
   const { flush } = useFlushCart();
+
   useEffect(() => {
     setCart([]);
     localStorage.removeItem("cart");
