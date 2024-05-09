@@ -10,9 +10,6 @@ export default defineConfig({
       "/api": {
         target: "http://localhost:3000",
       },
-      "/model": {
-        target: "http://localhost:8001",
-      },
     },
   },
 });
