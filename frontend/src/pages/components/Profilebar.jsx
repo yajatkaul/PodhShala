@@ -40,7 +40,7 @@ const Profilebar = () => {
               className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-[600px]"
             >
               <div className="overflow-auto max-h-[600px] flex flex-col gap-[10px]">
-                {!cart?.cart ? (
+                {!cart?.cart || cart?.cart.length === 0 ? (
                   <div className="flex flex-col justify-center items-center h-[100px]">
                     <MdRemoveShoppingCart className="h-[60px] w-[60px]" />
                     <p className="text-[20px]">Cart is empty</p>

@@ -24,14 +24,16 @@ const Scrollup = () => {
   }, []);
 
   return (
-    <button
-      onClick={scrollToTop}
-      className={`btn btn-outline fixed bottom-[30px] right-[30px] ${
-        scrollOffset >= 300 ? "" : "hidden"
-      }`}
-    >
-      <IoMdArrowDropupCircle className="w-[30px] h-[30px]" />
-    </button>
+    <>
+      <button
+        onClick={scrollToTop}
+        className={`btn btn-outline fixed bottom-[30px] right-[30px] ${
+          scrollOffset >= 300 ? "" : "hidden"
+        }`}
+      >
+        <IoMdArrowDropupCircle className="w-[30px] h-[30px]" />
+      </button>
+    </>
   );
 };
 

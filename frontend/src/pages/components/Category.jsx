@@ -15,7 +15,7 @@ const Category = () => {
   return (
     <>
       <p className="flex text-[40px] justify-center items-center">Categories</p>
-      <div className="w-screen flex justify-center items-center md:gap-[50px] gap-[10px] mt-[30px] mb-[30px]">
+      <div className="flex justify-center items-center md:gap-[50px] gap-[10px] mt-[30px] mb-[30px]">
         <button onClick={() => smoothScrollTo("fertilizers-pesticides")}>
           <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 bg-slate-700 rounded-3xl">
             <img
