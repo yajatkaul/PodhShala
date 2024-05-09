@@ -26,6 +26,7 @@ const CheckoutDetails = () => {
   useEffect(() => {
     if (cart?.cart?.length > 0) {
       calculateTotalAmount();
+      updateItems();
     }
   }, [cart?.cart]);
 
@@ -38,6 +39,13 @@ const CheckoutDetails = () => {
     setInputs((prevInputs) => ({
       ...prevInputs,
       cost: "₹" + total,
+    }));
+  };
+
+  const updateItems = () => {
+    setInputs((prevInputs) => ({
+      ...prevInputs,
+      items: cart?.cart,
     }));
   };
 
