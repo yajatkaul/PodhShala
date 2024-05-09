@@ -47,7 +47,10 @@ const ProductItem = ({ product }) => {
   }
 
   return (
-    <div className={`w-[400px] h-fit flex flex-col`} id={id}>
+    <div
+      className={`w-[400px] h-fit flex flex-col p-[10px] rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300`}
+      id={id}
+    >
       <div className="h-[500px] bg-white flex justify-center items-center">
         <img src={product.image} alt="Product" className="max-h-[500px]" />
       </div>
