@@ -25,7 +25,7 @@ const FertizliersPredict = () => {
     }
 
     const dat = await predict(inputs);
-    setRes(dat.prediction);
+    setRes(dat);
   };
   return (
     <>
@@ -79,9 +79,10 @@ const FertizliersPredict = () => {
         </button>
         <p>
           {res ? (
-            <p className="flex justify-center items-center ml-[60px] mr-[60px]">
-              {res}
-            </p>
+            <div
+              className="flex flex-col ml-[10%] mb-[50px] mr-[10%] flex-wrap"
+              dangerouslySetInnerHTML={{ __html: res }}
+            ></div>
           ) : (
             "..."
           )}

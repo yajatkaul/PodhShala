@@ -17,7 +17,8 @@ const usePredictFertilizers = () => {
           cropname: crop,
         }),
       });
-      const data = await res.json();
+      const data = await res.text();
+      console.log(data);
 
       if (data.err) {
         throw new Error(data.err);

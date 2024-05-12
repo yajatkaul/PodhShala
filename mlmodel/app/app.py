@@ -206,15 +206,13 @@ def crop_prediction():
 # render fertilizer recommendation result page
 
 
-@ app.route('/fertilizer-predict', methods=['POST'])
+@app.route('/fertilizer-predict', methods=['POST'])
 def fert_recommend():
-    title = 'Harvestify - Fertilizer Suggestion'
     data = request.json
     crop_name = str(data['cropname'])
     N = int(data['nitrogen'])
     P = int(data['phosphorous'])
     K = int(data['pottasium'])
-    # ph = float(request.form['ph'])
 
     df = pd.read_csv('Data/fertilizer.csv')
 
@@ -225,8 +223,10 @@ def fert_recommend():
     n = nr - N
     p = pr - P
     k = kr - K
+
     temp = {abs(n): "N", abs(p): "P", abs(k): "K"}
     max_value = temp[max(temp.keys())]
+
     if max_value == "N":
         if n < 0:
             key = 'NHigh'
@@ -243,11 +243,11 @@ def fert_recommend():
         else:
             key = "Klow"
 
-    response = str(fertilizer_dic[key]).replace("<i>", "").replace("</i>", "").replace("<br/>", "")
-    print(response)
-
-
-    return jsonify({"prediction": response})
+    response_html = str(fertilizer_dic[key])  # HTML code as a string
+    print("####")
+    print("res ->", response_html)
+    print("#####")
+    return response_html
 
 # render disease prediction result page
 
