@@ -29,7 +29,9 @@
 ###
 
 ```shell
-<p align="left">DB_URI = (database uri)<br>JWT_SECRET = password<br>NODE_ENV = development/production</p>
+DB_URI = (database uri)
+JWT_SECRET = password
+NODE_ENV = development/production
 ```
 
 ###
