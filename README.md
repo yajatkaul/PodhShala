@@ -28,6 +28,8 @@
 
 ###
 
-<div className="font-mono whitespace-pre bg-zinc-800 text-zinc-50 border border-zinc-900"><p align="left">DB_URI = (database uri)<br>JWT_SECRET = password<br>NODE_ENV = development/production</p></div>
+```shell
+<p align="left">DB_URI = (database uri)<br>JWT_SECRET = password<br>NODE_ENV = development/production</p>
+```
 
 ###
