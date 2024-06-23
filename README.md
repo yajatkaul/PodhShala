@@ -38,4 +38,5 @@ JWT_SECRET = password
 NODE_ENV = development/production
 ```
 
-
+<h2>ML MODEL IS NOT MINE</h2>
+<p1>https://github.com/Gladiator07/Harvestify</p1>
