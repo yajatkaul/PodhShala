@@ -33,5 +33,7 @@
 ```shell
 DB_URI = (database uri)
 JWT_SECRET = password
-NODE_ENV = development/production
+NODE_ENV = DEVELOPMENT/PRODUCTION
 ```
+
+You can use the test.products.json and import it in the products collection in the database and get the missing images
