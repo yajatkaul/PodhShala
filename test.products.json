@@ -1,0 +1,969 @@
+[{
+  "_id": {
+    "$oid": "663868d20b980f3dad73581e"
+  },
+  "name": "Alovera",
+  "price": 140,
+  "discountPrice": 126,
+  "image": "/products/plants/product1.jpg",
+  "category": "Plant",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:21:22.465Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:21:22.465Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663868e80b980f3dad735821"
+  },
+  "name": "Topiary Balls Plant",
+  "price": 3400,
+  "discountPrice": 3060,
+  "image": "/products/plants/product2.jpg",
+  "category": "Plant",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:21:44.898Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:21:44.898Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663868f50b980f3dad735824"
+  },
+  "name": "Dieffenbach Seguine",
+  "price": 170,
+  "discountPrice": 153,
+  "image": "/products/plants/product3.jpg",
+  "category": "Plant",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:21:57.616Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:21:57.616Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869050b980f3dad735827"
+  },
+  "name": "Corian Grill",
+  "price": 310000,
+  "discountPrice": 279000,
+  "image": "/products/plants/product4.jpg",
+  "category": "Plant",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:22:13.133Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:22:13.133Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869110b980f3dad73582a"
+  },
+  "name": "Money Plant",
+  "price": 120,
+  "discountPrice": 108,
+  "image": "/products/plants/product5.jpg",
+  "category": "Plant",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:22:25.309Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:22:25.309Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6638691e0b980f3dad73582d"
+  },
+  "name": "Sago Palm",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/plants/product6.jpg",
+  "category": "Plant",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:22:38.782Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:22:38.782Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6638692a0b980f3dad735830"
+  },
+  "name": "Snake Plant",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/plants/product7.jpg",
+  "category": "Plant",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:22:50.072Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:22:50.072Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869360b980f3dad735833"
+  },
+  "name": "Peace Lily",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/plants/product8.jpg",
+  "category": "Plant",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:23:02.077Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:23:02.077Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6638693a0b980f3dad735836"
+  },
+  "name": "Jade Plant",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/plants/product9.jpg",
+  "category": "Plant",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:23:06.276Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:23:06.276Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869480b980f3dad735839"
+  },
+  "name": "Begoni",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/plants/product10.jpg",
+  "category": "Plant",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:23:20.772Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:23:20.772Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6638694e0b980f3dad73583c"
+  },
+  "name": "Christmas Cactus",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/plants/product11.jpg",
+  "category": "Plant",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:23:26.056Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:23:26.056Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869530b980f3dad73583f"
+  },
+  "name": "Areca Palm",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/plants/product12.jpg",
+  "category": "Plant",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:23:31.003Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:23:31.003Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869640b980f3dad735842"
+  },
+  "name": "Dichlorvos",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/fertilizers/product13.jpg",
+  "category": "Fertilizer",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:23:48.699Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:23:48.699Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869680b980f3dad735845"
+  },
+  "name": "Alphametrin",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/fertilizers/product14.jpg",
+  "category": "Fertilizer",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:23:52.783Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:23:52.783Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6638696c0b980f3dad735848"
+  },
+  "name": "Carbendazin",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/fertilizers/product15.jpg",
+  "category": "Fertilizer",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:23:56.575Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:23:56.575Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869730b980f3dad73584b"
+  },
+  "name": "Cypermetrin",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/fertilizers/product16.jpg",
+  "category": "Fertilizer",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:24:03.482Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:24:03.482Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869770b980f3dad73584e"
+  },
+  "name": "Chloropyrifos",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/fertilizers/product17.jpg",
+  "category": "Fertilizer",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:24:07.267Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:24:07.267Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6638697a0b980f3dad735851"
+  },
+  "name": "Mancozeb",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/fertilizers/product18.jpg",
+  "category": "Fertilizer",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:24:10.046Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:24:10.046Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6638697d0b980f3dad735854"
+  },
+  "name": "Imidacloprid",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/fertilizers/product19.jpg",
+  "category": "Fertilizer",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:24:13.287Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:24:13.287Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6638697f0b980f3dad735857"
+  },
+  "name": "Dimethoate",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/fertilizers/product20.jpg",
+  "category": "Fertilizer",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:24:15.980Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:24:15.980Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869830b980f3dad73585a"
+  },
+  "name": "Malathion",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/fertilizers/product21.jpg",
+  "category": "Fertilizer",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:24:19.455Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:24:19.455Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869860b980f3dad73585d"
+  },
+  "name": "Carbaryl",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/fertilizers/product22.jpg",
+  "category": "Fertilizer",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:24:22.797Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:24:22.797Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869890b980f3dad735860"
+  },
+  "name": "Azadirachtin",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/fertilizers/product23.jpg",
+  "category": "Fertilizer",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:24:25.699Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:24:25.699Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6638698d0b980f3dad735863"
+  },
+  "name": "Lambda-Cyhalothrim",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/fertilizers/product24.jpg",
+  "category": "Fertilizer",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:24:29.013Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:24:29.013Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869a10b980f3dad735866"
+  },
+  "name": "Rubber Tree",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product25.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:24:49.777Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:24:49.777Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869a60b980f3dad735869"
+  },
+  "name": "Sandalwood",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product26.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:24:54.276Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:24:54.276Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869a90b980f3dad73586c"
+  },
+  "name": "Eucalyptus",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product27.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:24:57.094Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:24:57.094Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869ab0b980f3dad73586f"
+  },
+  "name": "Teak",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product28.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:24:59.584Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:24:59.584Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869ae0b980f3dad735872"
+  },
+  "name": "Bamboo",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product29.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:25:02.314Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:25:02.314Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869b10b980f3dad735875"
+  },
+  "name": "Pine",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product30.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:25:05.483Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:25:05.483Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869b40b980f3dad735878"
+  },
+  "name": "Sal",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product31.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:25:08.206Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:25:08.206Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869b70b980f3dad73587b"
+  },
+  "name": "Shisham",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product32.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:25:11.527Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:25:11.527Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869ba0b980f3dad73587e"
+  },
+  "name": "Cashew",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product33.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:25:14.488Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:25:14.488Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869bd0b980f3dad735881"
+  },
+  "name": "Khejri",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product34.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:25:17.631Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:25:17.631Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869c00b980f3dad735884"
+  },
+  "name": "Chesnut",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product35.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:25:20.185Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:25:20.185Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869c30b980f3dad735887"
+  },
+  "name": "Mango",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product36.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:25:23.442Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:25:23.442Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869c60b980f3dad73588a"
+  },
+  "name": "Papaya",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product37.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:25:26.926Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:25:26.926Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869c90b980f3dad73588d"
+  },
+  "name": "Banana",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product38.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:25:29.907Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:25:29.907Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869cd0b980f3dad735890"
+  },
+  "name": "Orange",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product39.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:25:33.879Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:25:33.879Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869d10b980f3dad735893"
+  },
+  "name": "Guava",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product40.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:25:37.023Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:25:37.023Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869d60b980f3dad735896"
+  },
+  "name": "Jackfruit",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product41.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:25:42.861Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:25:42.861Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869e20b980f3dad735899"
+  },
+  "name": "Apple",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product42.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:25:54.718Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:25:54.718Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869e60b980f3dad73589c"
+  },
+  "name": "Plum",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product43.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:25:58.427Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:25:58.427Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869e80b980f3dad73589f"
+  },
+  "name": "Cherry",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product44.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:26:00.958Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:26:00.958Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869eb0b980f3dad7358a2"
+  },
+  "name": "Litchi",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product45.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:26:03.748Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:26:03.748Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869f00b980f3dad7358a5"
+  },
+  "name": "Coconut",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product46.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:26:08.821Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:26:08.821Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869f30b980f3dad7358a8"
+  },
+  "name": "Pineapple",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product47.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:26:11.591Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:26:11.591Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663869f60b980f3dad7358ab"
+  },
+  "name": "Peach",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/treeSaplings/product48.jpg",
+  "category": "Tree Sapling",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:26:14.087Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:26:14.087Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66386a030b980f3dad7358ae"
+  },
+  "name": "Carrot Seeds",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/seeds/product49.jpg",
+  "category": "Seed",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:26:27.733Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:26:27.733Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66386a070b980f3dad7358b1"
+  },
+  "name": "Raddish Seeds",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/seeds/product50.jpg",
+  "category": "Seed",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:26:31.888Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:26:31.888Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66386a0e0b980f3dad7358b4"
+  },
+  "name": "Shalgam Seeds",
+  "price": 400,
+  "discountPrice": 360,
+  "image": "/products/seeds/product51.jpg",
+  "category": "Seed",
+  "discountPercentage": "-10%",
+  "rating": 5,
+  "createdAt": {
+    "$date": "2024-05-06T05:26:38.091Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T05:26:38.091Z"
+  },
+  "__v": 0
+}]
