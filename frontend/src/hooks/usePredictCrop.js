@@ -10,12 +10,12 @@ const usePredictCrop = () => {
     pottasium,
     ph,
     raifall,
-    state,
-    city,
+    temperature,
+    humidity,
   }) => {
     setLoading(true);
     try {
-      const res = await fetch("http://localhost:8001/crop-predict", {
+      const res = await fetch("http://localhost:8080/crop-predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -24,8 +24,8 @@ const usePredictCrop = () => {
           pottasium: pottasium,
           ph: ph,
           rainfall: raifall,
-          state: state,
-          city: city,
+          temperature: temperature,
+          humidity: humidity,
         }),
       });
       const data = await res.json();

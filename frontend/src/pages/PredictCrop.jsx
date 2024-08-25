@@ -11,8 +11,8 @@ const PredictCrop = () => {
     pottasium: "",
     ph: "",
     raifall: "",
-    state: "",
-    city: "",
+    temperature: "",
+    humidity: "",
   });
   const [res, setRes] = useState("");
   const { loading, predict } = usePredictCrop();
@@ -23,21 +23,15 @@ const PredictCrop = () => {
       !inputs.phosphorous ||
       !inputs.pottasium ||
       !inputs.ph ||
-      !inputs.raifall
+      !inputs.raifall ||
+      !inputs.temperature ||
+      !inputs.humidity
     ) {
       toast.error("Fill all the fields");
     }
-    if (inputs.state === "") {
-      toast.error("Select State");
-      return;
-    }
-    if (inputs.city === "") {
-      toast.error("Select City");
-      return;
-    }
 
     const dat = await predict(inputs);
-    setRes(dat.prediction);
+    setRes(dat.result);
   };
   return (
     <>
@@ -81,40 +75,22 @@ const PredictCrop = () => {
           value={inputs.raifall}
           onChange={(e) => setInputs({ ...inputs, raifall: e.target.value })}
         />
-        <select
-          className="select select-bordered w-full max-w-xs"
-          onChange={(e) => {
-            setInputs({ ...inputs, state: e.target.value });
-          }}
-          value={inputs.state}
-        >
-          <option disabled selected>
-            State
-          </option>
-          <option>Select</option>
-          {locations.states.map((stateObj) => {
-            return <option key={stateObj.state}>{stateObj.state}</option>;
-          })}
-        </select>
-        <select
-          className="select select-bordered w-full max-w-xs"
-          onChange={(e) => {
-            setInputs({ ...inputs, city: e.target.value });
-          }}
-          value={inputs.city}
-        >
-          <option disabled selected>
-            City
-          </option>
-          <option>Select</option>
-          {locations.states.map((stateObj) => {
-            return stateObj.state === inputs.state
-              ? stateObj.districts.map((district, index) => (
-                  <option key={index}>{district}</option>
-                ))
-              : null;
-          })}
-        </select>
+        <input
+          type="number"
+          placeholder="Temperature"
+          className="input input-bordered w-full max-w-xs"
+          value={inputs.temperature}
+          onChange={(e) =>
+            setInputs({ ...inputs, temperature: e.target.value })
+          }
+        />
+        <input
+          type="number"
+          placeholder="Humidity"
+          className="input input-bordered w-full max-w-xs"
+          value={inputs.humidity}
+          onChange={(e) => setInputs({ ...inputs, humidity: e.target.value })}
+        />
         <button className="btn btn-wide" onClick={predictAction}>
           {loading ? (
             <span className="loading loading-spinner loading-lg"></span>
