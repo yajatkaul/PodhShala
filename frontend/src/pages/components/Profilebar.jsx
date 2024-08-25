@@ -77,7 +77,7 @@ const Profilebar = () => {
         </div>
       ) : (
         <a href="/login">
-          <button className="btn md:mr-[100px] mr-[30px]">Login</button>
+          <button className="btn md:mr-[40px] mr-[30px]">Login</button>
         </a>
       )}
     </>

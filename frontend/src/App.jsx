@@ -8,7 +8,6 @@ import { useAuthContext } from "./context/AuthContext";
 import Cart from "./pages/Cart";
 import CheckedOut from "./pages/CheckedOut";
 import PredictCrop from "./pages/PredictCrop";
-import FertizliersPredict from "./pages/FertilizerPredict";
 
 function App() {
   const { authUser } = useAuthContext();
@@ -21,7 +20,6 @@ function App() {
           element={!authUser ? <Login /> : <Navigate to="/" />}
         />
         <Route path="/crop-predict" element={<PredictCrop />} />
-        <Route path="/fertilizer-predict" element={<FertizliersPredict />} />
         <Route
           path="/signup"
           element={!authUser ? <Signup /> : <Navigate to="/" />}

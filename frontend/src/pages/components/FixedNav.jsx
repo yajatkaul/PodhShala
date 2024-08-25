@@ -25,9 +25,6 @@ const FixedNav = () => {
       <a href="/crop-predict">
         <button className="btn btn-outline">Crop Predection</button>
       </a>
-      <a href="/fertilizer-predict">
-        <button className="btn btn-outline">Fertilizer Predection</button>
-      </a>
     </div>
   );
 };

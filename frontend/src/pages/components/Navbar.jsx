@@ -2,15 +2,12 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="flex h-[50px] gap-[20px] bg-slate-700">
+    <div className="flex h-[50px] gap-[20px] bg-slate-800 pl-2">
       <a href="/">
-        <button className="btn btn-outline">Home</button>
+        <button className="btn">Home</button>
       </a>
       <a href="/crop-predict">
-        <button className="btn btn-outline">Crop Predection</button>
-      </a>
-      <a href="/fertilizer-predict">
-        <button className="btn btn-outline">Fertilizer Predection</button>
+        <button className="btn">Crop Predection</button>
       </a>
     </div>
   );
