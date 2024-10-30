@@ -46,6 +46,6 @@ You can use the `test.products.json` and import it in the products collection in
 
 ###
 
-<p align="left">    - Currently it just has a dummy payment gateway cuz im lazy</p>
+> <p align="left">- Currently it just has a dummy payment gateway cuz im lazy</p>
 
 ###
