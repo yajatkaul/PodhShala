@@ -37,3 +37,15 @@ NODE_ENV = DEVELOPMENT/PRODUCTION
 ```
 
 You can use the `test.products.json` and import it in the products collection in the database and get the missing images
+
+<h1 align="left">Changes to be made</h1>
+
+###
+
+<h3 align="left">**Payment gateway**</h3>
+
+###
+
+<p align="left">- Currently it just has a dummy payment gateway cuz im lazy</p>
+
+###
