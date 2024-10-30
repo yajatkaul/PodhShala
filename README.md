@@ -42,7 +42,7 @@ You can use the `test.products.json` and import it in the products collection in
 
 ###
 
-<h3 align="left">**Payment gateway**</h3>
+<h3 align="left"><b>Payment gateway</b></h3>
 
 ###
 
